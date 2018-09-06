@@ -1,0 +1,27 @@
+<VirtualHost *:80>
+DocumentRoot "C:/Apache/htdocs"
+ServerName localhost
+ErrorLog "logs/error.log"
+CustomLog "logs/access.log" common
+</VirtualHost>
+
+
+<VirtualHost *:80>
+ServerAdmin webmaster@brewerjohnsonpersonal.com
+DocumentRoot "C:/apache/htdocs/brewerjohnsonpersonalwebsite"
+ServerName www.brewerjohnsonpersonal.com
+ServerAlias brewerjohnsonpersonal.com *.brewerjohnsonpersonal.com
+ErrorLog "logs/brewerjohnsonpersonalwebsite-error.log"
+CustomLog "logs/brewerjohnsonpersonalwebsite-access.log" common
+</VirtualHost>
+
+
+<VirtualHost *:80>
+ServerAdmin webmaster@brewerjohnsonbusiness.com
+DocumentRoot "C:/apache/htdocs/brewerjohnsonbusinesswebsite"
+ServerName www.brewerjohnsonbusiness.com
+ServerAlias brewerjohnsonbusiness.com *.brewerjohnsonbusiness.com
+ErrorLog "logs/brewerjohnsonbusinesswebsite-error.log"
+CustomLog "logs/brewerjohnsonbusinesswebsite-access.log" common
+</VirtualHost>
+
