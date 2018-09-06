@@ -1,0 +1,17 @@
+Generating public/private ecdsa key pair.
+Your identification has been saved in /Users/brewer.johnson/.ssh/brewer44.
+Your public key has been saved in /Users/brewer.johnson/.ssh/brewer44.pub.
+The key fingerprint is:
+SHA256:ZQkKibvlGjiKbe4KX9Ml2wZFfNGqtQKeQHV3PRj9++s brewer.johnson@TGP-13080-L.local
+The key's randomart image is:
++---[ECDSA 521]---+
+|   ..o..+ ooo=   |
+|  . o. +.o.oo +  |
+|   o  . ..+.   o |
+|  . o .. oo     .|
+| . + oooSo .    .|
+|o o ..o*o .    . |
+|+o oo o o.      .|
+|+.+. . .        .|
+|.=+           .E.|
++----[SHA256]-----+
